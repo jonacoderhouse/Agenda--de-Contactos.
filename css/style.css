@@ -1,0 +1,175 @@
+
+.oculto{
+    display: none;
+}
+.visible{
+    display: block;
+}
+
+.color{
+    color: rgb(10, 94, 10);
+}
+
+
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../image/pexels-juan-agustin-2340254\(1\).jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+    height: auto;
+}
+
+.header{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255, 255, 0, 0.605);
+    border-radius: 20px;    
+}
+
+.box-logo{
+    border-bottom: solid 2px orangered;
+    border-radius: 10px;
+   
+}
+.box-logo h1{
+    color: black;
+    font-size: 55px;
+}
+.box-title h1{
+    color: black;
+    font-size: 40px;
+    ;
+}
+/*MAIN*/
+    main {
+        background-color: rgba(0, 0, 0, 0.319);
+        border-radius: 20px;
+    }
+.box-formulario-usuario{
+    width: 50%;
+    height: 100px;
+    background-color: rgba(255, 68, 0, 0.732);
+    border-radius: 20px;
+    margin-top: 40px;
+    position: relative;
+    left: 25%;
+}
+.box-formulario-usuario #formulario-usuario{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+.box-form{
+    margin-top: 20px;
+
+}
+
+#formularioDatos{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.labelUsuario{
+   font-size: 20px;
+   font-weight: bold;
+   color: antiquewhite;
+}
+
+.label{
+    font-size: 20px;
+    color: aliceblue;
+}
+.input{
+    background-color: rgba(240, 248, 255, 0.692);
+    width: 30%;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 19px;
+    margin: 10px;
+    outline: none;
+}
+.boton{
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    border: solid 2px orange;
+    font-size: 15px;
+    margin-left: 40px;
+    cursor: pointer;
+    transition: 1s;
+
+}
+.boton:hover{
+    cursor: pointer;
+    background-color: black;
+    color: antiquewhite;
+}
+
+#formularioDatos .boton{
+    margin-bottom: 20px;
+    background-color: black;
+    color: antiquewhite;
+    border: solid 2px orangered;
+    cursor: pointer;
+}
+
+
+.seccion-cargaDeDatos{
+    margin-top: 30px;
+    background-color: orange;
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+}
+
+/* CONTENEDOR LISTA DATOS*/
+#contenedorMensaje{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: 30px;
+
+}
+.lista{
+    color:black;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+    text-decoration:overline;  
+}
+
+.botonBorrar{
+    cursor: pointer;
+    width: 60px;
+    height: 30px ;
+    border-radius: 20px;
+    background-color: black;
+    color: antiquewhite;
+    border: solid 2px orangered;
+    transition: 2s;
+}
+
+.botonBorrar:hover{
+    cursor: pointer;
+    transform: rotate(400grad);
+}

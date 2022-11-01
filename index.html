@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>AGENDA DE CONTACTOS</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="box-logo">
+            <h1>Jonathan Bonnie</h1>
+        </div>
+        <div class="box-title">
+            <h1>Agenda de datos</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="box-formulario-usuario">
+            <form id="formulario-usuario">
+                    <labe  class="labelUsuario">Ingrese nombre de usuario <label>
+                        <input id="user" class="input" type="text" placeholder="Usuario" required>
+                        <input class="boton" type="submit" value="Buscar">
+            </form>
+        </div>
+
+        <div class="box-form">
+            <form id="formularioDatos">
+                <label class="label" for="email">E-mail</label>
+                <input class="input" id="correoInput" for="name" placeholder="Ingrese su E-mail" required>
+                <label class="label" for="tex">Nombre</label>
+                <input class="input" id="inputNombre" type="text" placeholder="Ingrese su nombre" required>
+                <label class="label" for="tex">Apellido</label>
+                <input class="input" id="inputApellido" type="text" placeholder="Ingrese su apellido" required>
+                <label class="label" for="tel">Telefono</label>
+                <input class="input" type="number" id="inputTel" placeholder="Numero de telefono" required>
+                <label class="label" for="date">Fecha de nacimiento</label>
+                <input class="input" type="date" id="inputFecha" placeholder="F.nacimiento" required>
+                <input class="boton" type="submit" value="Agregar">
+            </form>
+        </div>
+    </main>
+
+    <section class="seccion-cargaDeDatos">
+        <ul id="contenedorMensaje">
+        </ul>
+    </section>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/index.js">STORAGE</script>
+</body>
+
+</html>
